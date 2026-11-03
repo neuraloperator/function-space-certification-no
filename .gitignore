@@ -1,0 +1,30 @@
+# Python and local tooling
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+.venv*/
+.pytest_cache/
+.ruff_cache/
+.cache/
+
+# Downloaded inputs and generated experiment output
+/data/
+/results/
+/logs/
+/output/
+
+# LaTeX build intermediates
+*.aux
+*.log
+*.out
+*.toc
+*.ptc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.err
